@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "css-loader": "^6.8.1",
+    "glob": "^10.3.10",
     "postcss-preset-env": "^9.3.0",
     "style-loader": "^3.3.3"
   }
