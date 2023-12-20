@@ -1,0 +1,30 @@
+$title-font: "Raleway", Arial, Helvetica, sans-serif;
+$text-font: "Montserrat", Arial, Helvetica, sans-serif;
+$bg-color: #fff;
+
+@mixin section-title-styles() {
+  color: #000;
+  font-family: $title-font;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+@mixin title-styles() {
+  color: #000;
+  font-family: $title-font;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@mixin text-styles() {
+  color: #000;
+  font-family: $text-font;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+@mixin flexible-column() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
