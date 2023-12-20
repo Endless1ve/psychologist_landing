@@ -1,3 +1,7 @@
 .link {
   @include link-styles();
 }
+
+.link:hover {
+  opacity: 0.6;
+}

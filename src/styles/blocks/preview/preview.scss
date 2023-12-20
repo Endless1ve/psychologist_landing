@@ -4,6 +4,7 @@
 .preview {
   gap: 30px;
   @include flexible-row();
+  
   @media screen and (max-width: $mobile-width) {
     flex-direction: column;
   }

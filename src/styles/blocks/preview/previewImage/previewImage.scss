@@ -1,6 +1,7 @@
 .previewImage {
   width: 50%;
   max-width: 460px;
+
   @media screen and (max-width: $mobile-width) {
     width: 100%;
     max-width: 600px;
