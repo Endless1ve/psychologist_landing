@@ -21,14 +21,14 @@ $link-color: rgb(40, 0, 199);
 @mixin text-styles() {
   color: $text-color;
   font-family: $text-font;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
 }
 
 @mixin link-styles() {
   color: $link-color;
   font-family: $text-font;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
   text-decoration: none;
 }
@@ -42,4 +42,5 @@ $link-color: rgb(40, 0, 199);
 @mixin flexible-row() {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
