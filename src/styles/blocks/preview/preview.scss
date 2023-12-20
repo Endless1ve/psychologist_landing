@@ -1,5 +1,7 @@
-@import 'previewImage/previewImage';
+@import "previewImage/previewImage";
+@import "previewTexts/previewTexts";
 
 .preview {
-  display: flex;
+  gap: 30px;
+  @include flexible-row();
 }

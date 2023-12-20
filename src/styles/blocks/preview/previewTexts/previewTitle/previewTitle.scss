@@ -1,0 +1,5 @@
+.previewTitle {
+  margin: 0 0 16px 0;
+  text-align: center;
+  @include section-title-styles();
+}
