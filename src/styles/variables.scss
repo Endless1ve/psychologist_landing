@@ -3,6 +3,7 @@ $text-font: "Montserrat", Arial, Helvetica, sans-serif;
 $bg-color: #fff;
 $text-color: #000;
 $link-color: rgb(40, 0, 199);
+$mobile-width: 768px;
 
 @mixin section-title-styles() {
   color: $text-color;
